@@ -3,11 +3,13 @@ services:
     name: educa-ai
     env: node
     plan: free
-    buildCommand: "npm install && npm run build"
-    startCommand: "npm start"
+    buildCommand: "npm install --prefix server && npm install --prefix client && npm run build --prefix client"
+    startCommand: "npm run start:prod --prefix server"
     envVars:
       - key: NODE_ENV
         value: production
+      - key: PROD_URL
+        value: https://educa-ai.onrender.com
       - key: MONGO_URI
         fromDatabase:
           name: educa-ai-db

@@ -10,8 +10,19 @@ const { setupMailService } = require('./services/mailService');
 const app = express();
 
 // CORS Configuration
+const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174'];
+if (process.env.NODE_ENV === 'production' && process.env.PROD_URL) {
+  allowedOrigins.push(process.env.PROD_URL);
+}
+
 app.use(cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174'],
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
     credentials: true
 }));
 

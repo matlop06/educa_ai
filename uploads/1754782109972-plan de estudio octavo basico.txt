@@ -1,0 +1,45 @@
+plan de estudio octavo basico
+
+Números
+En esta unidad, los estudiantes se enfocan en los números racionales. Esto incluye aprender a:
+
+Ubicar fracciones y decimales en la recta numérica. Imagina una línea donde puedes colocar todos los números. Aquí aprenderán a encontrar el lugar exacto de números como 1/2 o 0.75.
+
+Operar con números racionales. Sumar, restar, multiplicar y dividir fracciones y decimales. Por ejemplo, calcular cuánto es 1/2+1/4 o 0.5×0.2.
+
+Resolver problemas de la vida diaria. Usar estos números para resolver situaciones reales, como calcular cuánto cuesta algo si le aplican un descuento del 15%.
+
+Álgebra y Funciones
+Aquí se empieza a trabajar con letras y expresiones matemáticas. Es como un puzzle donde las letras representan números desconocidos.
+
+Expresiones algebraicas. Se trata de expresiones como 2x+5. Aprenderán a simplificarlas y a evaluarlas (reemplazar la letra por un número para ver el resultado).
+
+Ecuaciones de primer grado. Son como balanzas equilibradas. Por ejemplo, x+3=10. El objetivo es encontrar el valor de x que hace que la balanza esté en equilibrio.
+
+Funciones. Se introduce la idea de que una variable depende de otra. Por ejemplo, el costo total de comprar x cuadernos podría ser f(x)=2x. Aprenderán a graficar estas relaciones en un plano cartesiano.
+
+Geometría
+Esta unidad se enfoca en las formas, las figuras y el espacio que las rodea.
+
+Transformaciones isométricas. Se estudia cómo mover figuras sin cambiar su tamaño ni su forma. Las principales transformaciones son la traslación (mover la figura), la rotación (girarla) y la reflexión (ponerla frente a un espejo).
+
+Cuerpos geométricos. Aprenderán a calcular el área (la superficie de las caras) y el volumen (el espacio que ocupa) de figuras como cubos, pirámides y cilindros.
+
+Teorema de Pitágoras. Un concepto muy importante que se aplica a los triángulos rectángulos (los que tienen un ángulo de 90°). La fórmula a 
+2
+ +b 
+2
+ =c 
+2
+  se usa para encontrar la medida de uno de los lados si se conocen los otros dos.
+
+
+Con licencia de Google
+Probabilidad y Estadística
+Aquí se trata de analizar datos y predecir lo que puede pasar.
+
+Tablas y gráficos. Se aprende a organizar y mostrar datos de manera visual, usando tablas de frecuencia, gráficos de barras y circulares. Por ejemplo, cuántos estudiantes prefieren el fútbol, el baloncesto o el voleibol.
+
+Medidas de tendencia central. Son números que resumen un conjunto de datos. La media es el promedio, la mediana es el número de la mitad cuando están ordenados y la moda es el número que más se repite.
+
+Probabilidad. Se calcula la posibilidad de que ocurra un evento. Por ejemplo, cuál es la probabilidad de sacar un 6 al lanzar un dado.
