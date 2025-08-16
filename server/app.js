@@ -60,6 +60,7 @@ app.use('/api/evaluations', require('./routes/evaluations'));
 // In production, serve static files from the React app
 if (process.env.NODE_ENV === 'production') {
     const clientDistPath = path.join(__dirname, '../client/dist');
+    console.log(`Serving static files from: ${clientDistPath}`);
 
     app.use(express.static(clientDistPath));
 
