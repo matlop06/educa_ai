@@ -3,7 +3,7 @@ services:
     name: educa-ai
     env: node
     plan: free
-    buildCommand: "npm install --legacy-peer-deps"
+    buildCommand: "npm run install:all && npm run build"
     startCommand: "npm start --prefix server"
     envVars:
       - key: NODE_ENV

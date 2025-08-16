@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "postinstall": "npm install --prefix client && npm run build --prefix client && npm install --prefix server && cp -a client/dist/. server/public/",
+    "install:all": "npm install && npm install --prefix client && npm install --prefix server",
+    "build": "npm run build --prefix client && cp -a client/dist/. server/public/",
     "start": "npm start --prefix server"
   },
   "workspaces": [
