@@ -1,0 +1,18 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Import the new design system variables */
+@import url('./theme.css');
+
+/* Remove default body display properties that center everything */
+body {
+  display: block; /* Overwrite display: flex */
+  place-items: initial; /* Overwrite place-items: center */
+}
+
+/* A few global overrides for consistency if needed */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

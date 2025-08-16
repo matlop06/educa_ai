@@ -1,0 +1,274 @@
+/* --- Base Styles --- */
+.landingPage {
+    font-family: var(--bs-body-font-family);
+    color: var(--text-primary);
+    background-color: var(--background);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/* --- Navbar --- */
+.navbar {
+    background-color: transparent;
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+    background-color: var(--background);
+    box-shadow: var(--box-shadow-md);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.navLink {
+    font-weight: 600;
+    color: var(--primary);
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--primary);
+    border-radius: var(--border-radius-lg);
+    transition: all 0.3s ease;
+}
+
+.navLink:hover {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* --- Hero Section --- */
+.hero {
+    text-align: center;
+    padding: 10rem 0 8rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, var(--secondary-color) 100%);
+}
+
+.heroTitle {
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heroSubtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    margin-bottom: 2.5rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --- Buttons --- */
+.btn {
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: var(--border-radius-lg);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btnPrimary {
+    color: white;
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.btnPrimary:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+    transform: translateY(-2px);
+    box-shadow: var(--box-shadow-lg);
+}
+
+/* --- Section Base --- */
+.sectionHeader {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.sectionHeader h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.sectionHeader p {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+}
+
+/* --- Features Section --- */
+.features {
+    padding: 6rem 0;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.featureCard {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureCard:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--box-shadow-md);
+}
+
+.featureIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5rem;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 50%;
+}
+
+.featureCard h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.featureCard p {
+    color: var(--text-secondary);
+}
+
+/* --- Comparison Section --- */
+.comparison {
+    padding: 6rem 0;
+    background-color: var(--secondary-color);
+}
+
+.comparisonGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.comparisonColumn {
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+.comparisonColumn h4 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.comparisonColumn ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comparisonColumn li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.educaAiColumn {
+    border: 2px solid var(--primary);
+}
+
+.educaAiColumn h4 {
+    color: var(--primary);
+}
+
+/* --- CTA Section --- */
+.cta {
+    padding: 6rem 0;
+    text-align: center;
+    background-color: var(--primary);
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta .btnPrimary {
+    background-color: white;
+    color: var(--primary);
+    border-color: white;
+}
+
+.cta .btnPrimary:hover {
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+}
+
+/* --- Footer --- */
+.footer {
+    padding: 2rem 0;
+    background-color: var(--sidebar-bg);
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    opacity: 0.8;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+    .comparisonGrid {
+        grid-template-columns: 1fr;
+    }
+}

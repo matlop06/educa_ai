@@ -1,0 +1,63 @@
+.pageContainer {
+  padding: 2rem;
+}
+
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.backButton {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.evaluationCard {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.evaluationCard h3 {
+  margin: 0 0 0.5rem 0;
+}
+
+.evaluationCard p {
+  color: var(--text-muted);
+  margin: 0 0 1.5rem 0;
+}
+
+.startButton {
+  margin-top: auto;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: var(--border-radius);
+  transition: background-color 0.2s ease;
+}
+
+.startButton:hover {
+  background-color: var(--primary-hover);
+}

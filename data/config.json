@@ -1,0 +1,20 @@
+{
+  "assistants": [
+    {
+      "id": "cd23401a-9265-4fdd-9336-e131a162490a",
+      "name": "profe ingles",
+      "avatar": "ac",
+      "instructions": "actua como profesor de ingles",
+      "style": "formal",
+      "isPublic": true
+    },
+    {
+      "id": "5fc24f24-3039-49e9-9112-2ad44afe8ea0",
+      "name": "profe mate",
+      "avatar": "aps",
+      "instructions": "actua como profesor de matematicas",
+      "style": "formal",
+      "isPublic": true
+    }
+  ]
+}

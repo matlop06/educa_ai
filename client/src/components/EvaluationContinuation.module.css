@@ -1,0 +1,45 @@
+.continuationContainer {
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 8px;
+    border: 1px solid #e0e0e0;
+}
+
+.continuationContainer p {
+    margin: 0 0 12px 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.btnContinue {
+    background-color: #28a745;
+    color: white;
+}
+
+.btnContinue:hover {
+    background-color: #218838;
+}
+
+.btnStop {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btnStop:hover {
+    background-color: #c82333;
+}

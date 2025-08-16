@@ -1,0 +1,30 @@
+/* --- THEME VARIABLES & FONTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* --- GENERAL STYLES --- */
+body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+}
+
+/* --- LAYOUT STYLES --- */
+.dashboard-wrapper { display: flex; min-height: 100vh; }
+.main-content { flex-grow: 1; display: flex; flex-direction: column; }
+.page-content { padding: 2rem; flex-grow: 1; }
+
+
+
+/* --- CARD --- */
+.card { border: 1px solid var(--border-color); border-radius: 8px; }
+.card-header { background-color: #F8F9FA; border-bottom: 1px solid var(--border-color); }
+.card-header h5 { margin: 0; font-size: 1.1rem; font-weight: 600; }
+
+/* --- FORMS & TABLES --- */
+.form-control, .form-select { border-radius: 8px; }
+.table { border-color: var(--border-color); }
+.table th { font-weight: 600; }
+
+/* --- BUTTONS --- */
+.btn { border-radius: 8px; }

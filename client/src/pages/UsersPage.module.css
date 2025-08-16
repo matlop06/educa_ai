@@ -1,0 +1,21 @@
+.institutionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.institutionCard {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius-lg);
+  box-shadow: var(--box-shadow-md);
+  border: 1px solid var(--border-color);
+}
+
+.institutionName {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
