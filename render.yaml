@@ -3,8 +3,9 @@ services:
     name: educa-ai
     env: node
     plan: free
-    buildCommand: "npm install && npm install --prefix server && npm install --prefix client && npm run build --prefix client"
-    startCommand: "cd server && npm run start:prod"
+    rootDir: server
+    buildCommand: "cd client && npm install && npm run build && cd .. && npm install --prefix server"
+    startCommand: "npm run start:prod"
     envVars:
       - key: NODE_ENV
         value: production
