@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     rootDir: server
-    buildCommand: "cd ../client && npm install && npm run build && cd ../server && npm install"
+    buildCommand: "cd ../client && npm install && npm run build && cd .. && cp -a client/dist/. server/public/ && cd server && npm install"
     startCommand: "npm run start:prod"
     envVars:
       - key: NODE_ENV

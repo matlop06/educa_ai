@@ -59,15 +59,15 @@ app.use('/api/evaluations', require('./routes/evaluations'));
 
 // In production, serve static files from the React app
 if (process.env.NODE_ENV === 'production') {
-    const clientDistPath = path.join(__dirname, '../client/dist');
-    console.log(`Serving static files from: ${clientDistPath}`);
+    const publicPath = path.join(__dirname, 'public');
+    console.log(`Serving static files from: ${publicPath}`);
 
-    app.use(express.static(clientDistPath));
+    app.use(express.static(publicPath));
 
     // The "catchall" handler: for any request that doesn't
     // match one above, send back React's index.html file.
     app.get('*', (req, res) => {
-        res.sendFile(path.join(clientDistPath, 'index.html'));
+        res.sendFile(path.join(publicPath, 'index.html'));
     });
 }
 
